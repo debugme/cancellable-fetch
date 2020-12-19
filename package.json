@@ -1,0 +1,14 @@
+{
+  "name": "abort-fetch",
+  "description": "shows how to abort a fetch request using abort controller",
+  "version": "1.0.0",
+  "scripts": {
+    "start:client": "URL=http://localhost:3000/contacts node client.js",
+    "start:server": "HOST=http://localhost PORT=3000 DELAY=5000 node server.js"
+  },
+  "dependencies": {
+    "abort-controller": "3.0.0",
+    "express": "4.17.1",
+    "node-fetch": "2.6.1"
+  }
+}
